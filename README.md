@@ -1,1 +1,1 @@
-# DjangoVueStudy
+# NuxtDjangoStudy
