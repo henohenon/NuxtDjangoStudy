@@ -1,0 +1,26 @@
+[
+  {
+    "name": "actor",
+    "path": "/actor",
+    "component": "/code/front/pages/actor.vue",
+    "chunkName": "pages/actor"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/code/front/pages/inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "test",
+    "path": "/test",
+    "component": "/code/front/pages/test.vue",
+    "chunkName": "pages/test"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/code/front/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
