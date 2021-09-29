@@ -2,6 +2,9 @@
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },
+  "TestForm": {
+    "description": "Auto imported from components/TestForm.vue"
+  },
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },

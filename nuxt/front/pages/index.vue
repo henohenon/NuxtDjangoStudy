@@ -31,7 +31,9 @@
       </div>
     </div>
 -->
-
+  <div>
+    <TestForm />
+  </div>
   </section>
 </template>
 
@@ -41,6 +43,7 @@
 
 
   import Actor from './actor.vue';
+  import TestForm from '~/components/TestForm.vue';
 
   export default {
     data() {
@@ -51,6 +54,9 @@
     computed: {
       ...mapState(['actors']),
       ...mapState(['map']),
+    },
+    components: {
+      TestForm
     },
     mounted () {
       // thisがsetInterval内だと狂う(詳しくは知らん)ため、無理やり変数に格納する。参考→https://mi2log.hatenablog.jp/entry/20141206/1417856996

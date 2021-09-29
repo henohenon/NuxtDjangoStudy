@@ -3,6 +3,7 @@ import { wrapFunctional } from './utils'
 
 const components = {
   NuxtLogo: () => import('../../components/NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c)),
+  TestForm: () => import('../../components/TestForm.vue' /* webpackChunkName: "components/test-form" */).then(c => wrapFunctional(c.default || c)),
   Tutorial: () => import('../../components/Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c)),
   VuetifyLogo: () => import('../../components/VuetifyLogo.vue' /* webpackChunkName: "components/vuetify-logo" */).then(c => wrapFunctional(c.default || c))
 }
