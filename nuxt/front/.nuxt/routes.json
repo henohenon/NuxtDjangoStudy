@@ -3,24 +3,28 @@
     "name": "actor",
     "path": "/actor",
     "component": "/code/front/pages/actor.vue",
-    "chunkName": "pages/actor"
+    "chunkName": "pages/actor",
+    "_name": "_f0e3be9a"
   },
   {
     "name": "inspire",
     "path": "/inspire",
     "component": "/code/front/pages/inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_6d54dd98"
   },
   {
     "name": "test",
     "path": "/test",
     "component": "/code/front/pages/test.vue",
-    "chunkName": "pages/test"
+    "chunkName": "pages/test",
+    "_name": "_3b1c2ac4"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/code/front/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_413ee910"
   }
 ]

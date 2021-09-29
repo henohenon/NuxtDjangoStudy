@@ -33,13 +33,15 @@
           <th>Course</th>
           <th>Rating</th>
         </thead>
+        <tbody>
           <tr v-for="student in students" :key="student.id" @dblclick="$data.student = student">
             <td>{{ student.name }}</td>
             <td>{{ student.course }}</td>
             <td>{{ student.rating }}</td>
             <td><button @click="deleteStudent(student)">x</button></td>
           </tr>
-        </table>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
@@ -70,9 +72,18 @@ export default {
     },
     // データを全取得
     async getStudents() {
-      const url = "/api/get_myapp";
-      const response = await this.$axios.get(url);
-      this.students = response.data;
+      //const url = "/api/get_myapp";
+      //const response = await this.$axios.get(url);
+      function nuxtServerInit(param)
+      {
+        this.$axios({
+          url: '/api/get_myapp',
+          method: 'GET'
+        }).then()
+        {
+          this.students = param.data;
+        }
+      }
     },
     // データを新規登録
     async createStudent() {

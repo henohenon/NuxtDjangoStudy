@@ -2,7 +2,7 @@ from django.shortcuts import render
 from rest_framework.generics import ListAPIView, CreateAPIView,UpdateAPIView,RetrieveAPIView,DestroyAPIView
 from rest_framework.permissions import AllowAny
 from .models import Student
-from .serializers import StudentSerializer
+from .serializer import StudentSerializer
 
 class StudentsViewSet(ListAPIView):
     model = Student
